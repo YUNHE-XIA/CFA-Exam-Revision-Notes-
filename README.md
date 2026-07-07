@@ -162,7 +162,7 @@ The notes focus on:
 
 ---
 
-##**使用方式 | How to Use**
+## **使用方式 | How to Use**
 
 可以按照以下方式使用本 repository：
 
@@ -179,9 +179,10 @@ Review the key concepts and formulas.
 Focus on common exam traps and question-solving logic.
 Use the quick memory version before the exam.
 Test understanding with official questions or mock exams.
+
 ---
 
-##**Disclaimer | 免责声明**
+## **Disclaimer | 免责声明**
 
 This repository is for personal study and educational purposes only.
 
@@ -195,7 +196,7 @@ CFA® 和 Chartered Financial Analyst® 是 CFA Institute 拥有的注册商标�
 The notes are based on personal understanding and exam revision needs. They should not be treated as official CFA curriculum materials.
 
 ---
-##**Future Plan | 后续计划**
+## **Future Plan | 后续计划**
 
 Planned updates include:
 
@@ -216,7 +217,7 @@ Quick review notes before the exam
 制作考前速记版本
 
 ---
-##**Author**
+## **Author**
 
 Created by Pedro Xia as part of a personal finance, investment, and CFA exam revision project.
 
