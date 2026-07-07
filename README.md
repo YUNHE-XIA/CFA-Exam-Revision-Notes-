@@ -162,28 +162,215 @@ The notes focus on:
 
 ---
 
-## Repository Structure
+## Repository Structure | 项目结构
+
+The repository is organised by CFA topic areas.  
+Some sections are still under development and will be updated progressively.
+
+本项目按照 CFA 科目模块进行整理。  
+部分内容仍在持续更新中，结构会先保留，方便后续补充完整。
 
 ```text
 CFA-Exam-Revision-Notes/
 │
-├── Equity/
-│   ├── Market-Efficiency.md
-│   ├── Equity-Securities.md
-│   ├── Industry-Analysis.md
-│   └── Equity-Valuation.md
+├── README.md
 │
-├── Corporate-Issuers/
-│   ├── Working-Capital.md
-│   ├── Capital-Investments.md
-│   └── Capital-Structure.md
+├── Ethics-and-Professional-Standards/
+│   ├── Ethics-and-Trust-in-the-Investment-Profession.md
+│   ├── Code-of-Ethics-and-Standards-of-Professional-Conduct.md
+│   ├── Guidance-for-Standards-I-VII.md
+│   ├── Introduction-to-GIPS.md
+│   └── Ethics-Exam-Traps-and-Case-Logic.md
+│
+├── Quantitative-Methods/
+│   ├── Rates-and-Returns.md
+│   ├── Time-Value-of-Money.md
+│   ├── Statistical-Concepts-and-Market-Returns.md
+│   ├── Probability-Concepts.md
+│   ├── Common-Probability-Distributions.md
+│   ├── Sampling-and-Estimation.md
+│   ├── Hypothesis-Testing.md
+│   ├── Linear-Regression.md
+│   └── Quant-Formula-Sheet.md
+│
+├── Economics/
+│   ├── Demand-and-Supply-Analysis.md
+│   ├── The-Firm-and-Market-Structures.md
+│   ├── Aggregate-Output-Prices-and-Economic-Growth.md
+│   ├── Business-Cycles.md
+│   ├── Monetary-and-Fiscal-Policy.md
+│   ├── International-Trade-and-Capital-Flows.md
+│   ├── Currency-Exchange-Rates.md
+│   └── Economics-Exam-Traps.md
 │
 ├── Financial-Statement-Analysis/
-│   ├── Forecasting.md
-│   └── Financial-Statement-Modeling.md
+│   ├── Introduction-to-Financial-Statement-Analysis.md
+│   ├── Financial-Reporting-Standards.md
+│   ├── Understanding-Income-Statements.md
+│   ├── Understanding-Balance-Sheets.md
+│   ├── Understanding-Cash-Flow-Statements.md
+│   ├── Financial-Analysis-Techniques.md
+│   ├── Inventories.md
+│   ├── Long-Lived-Assets.md
+│   ├── Income-Taxes.md
+│   ├── Non-Current-Liabilities.md
+│   ├── Financial-Statement-Modeling.md
+│   ├── Forecasting-Financial-Statements.md
+│   └── FSA-Formula-Sheet.md
+│
+├── Corporate-Issuers/
+│   ├── Introduction-to-Corporate-Governance-and-ESG.md
+│   ├── Capital-Budgeting.md
+│   ├── Cost-of-Capital.md
+│   ├── Measures-of-Leverage.md
+│   ├── Working-Capital-Management.md
+│   ├── Corporate-Restructuring.md
+│   ├── Capital-Investments.md
+│   ├── Capital-Allocation.md
+│   ├── Capital-Structure.md
+│   └── Corporate-Issuers-Exam-Traps.md
+│
+├── Equity-Investments/
+│   ├── Market-Organization-and-Structure.md
+│   ├── Security-Market-Indexes.md
+│   ├── Market-Efficiency.md
+│   ├── Overview-of-Equity-Securities.md
+│   ├── Company-Analysis-Past-and-Present.md
+│   ├── Industry-and-Competitive-Analysis.md
+│   ├── Forecasting-Company-Financials.md
+│   ├── Equity-Valuation-Overview.md
+│   ├── Dividend-Discount-Model.md
+│   ├── Gordon-Growth-Model.md
+│   ├── Multistage-DDM.md
+│   ├── Price-Multiples.md
+│   ├── Enterprise-Value-Multiples.md
+│   ├── Asset-Based-Valuation.md
+│   └── Equity-Valuation-Formula-Sheet.md
+│
+├── Fixed-Income/
+│   ├── Fixed-Income-Securities-Defining-Elements.md
+│   ├── Fixed-Income-Markets-Issuance-Trading-and-Funding.md
+│   ├── Introduction-to-Fixed-Income-Valuation.md
+│   ├── Introduction-to-Asset-Backed-Securities.md
+│   ├── Understanding-Fixed-Income-Risk-and-Return.md
+│   ├── Fundamentals-of-Credit-Analysis.md
+│   ├── Yield-Measures.md
+│   ├── Duration-and-Convexity.md
+│   └── Fixed-Income-Formula-Sheet.md
 │
 ├── Derivatives/
-│   ├── Forward-Commitments-and-Contingent-Claims.md
-│   └── Derivative-Benefits-Risks-and-Uses.md
+│   ├── Derivative-Instrument-and-Market-Features.md
+│   ├── Forward-Commitment-and-Contingent-Claim-Features.md
+│   ├── Forwards-Futures-and-Swaps.md
+│   ├── Options-and-Credit-Derivatives.md
+│   ├── Derivative-Benefits-Risks-and-Uses.md
+│   ├── Issuer-and-Investor-Use-of-Derivatives.md
+│   ├── Forward-Commitments-vs-Contingent-Claims.md
+│   └── Derivatives-Formula-Sheet.md
 │
-└── README.md
+├── Alternative-Investments/
+│   ├── Introduction-to-Alternative-Investments.md
+│   ├── Real-Estate.md
+│   ├── Private-Equity.md
+│   ├── Private-Debt.md
+│   ├── Hedge-Funds.md
+│   ├── Commodities.md
+│   ├── Infrastructure.md
+│   └── Alternative-Investments-Exam-Traps.md
+│
+├── Portfolio-Management/
+│   ├── Portfolio-Management-Overview.md
+│   ├── Portfolio-Risk-and-Return-Part-I.md
+│   ├── Portfolio-Risk-and-Return-Part-II.md
+│   ├── Basics-of-Portfolio-Planning-and-Construction.md
+│   ├── Risk-Management.md
+│   ├── Technical-Analysis.md
+│   ├── Fintech-in-Investment-Management.md
+│   ├── ESG-Considerations-in-Portfolio-Management.md
+│   └── Portfolio-Management-Formula-Sheet.md
+│
+├── Formula-Sheets/
+│   ├── Equity-Formula-Sheet.md
+│   ├── Derivatives-Formula-Sheet.md
+│   ├── Fixed-Income-Formula-Sheet.md
+│   ├── Quant-Formula-Sheet.md
+│   ├── FSA-Formula-Sheet.md
+│   ├── Corporate-Issuers-Formula-Sheet.md
+│   └── Full-CFA-Formula-Sheet.md
+│
+├── Exam-Traps-and-Question-Logic/
+│   ├── High-Frequency-Exam-Traps.md
+│   ├── Concept-Comparison-Tables.md
+│   ├── Calculation-Question-Frameworks.md
+│   ├── Ethics-Case-Question-Logic.md
+│   ├── Valuation-Question-Logic.md
+│   ├── Derivatives-Question-Logic.md
+│   └── Final-Review-Checklist.md
+│
+└── Quick-Review/
+    ├── One-Day-Before-Exam-Review.md
+    ├── Last-Week-Revision-Plan.md
+    ├── Must-Know-Formulas.md
+    ├── Must-Know-Definitions.md
+    ├── Common-English-Terms.md
+    └── Ultra-Short-Memory-Version.md
+---
+##**使用方式 | How to Use**
+
+可以按照以下方式使用本 repository：
+
+先阅读每个 module 的核心定位；
+再看概念解释和公式；
+重点复习“高频陷阱”和“做题思维”；
+考前快速查看“极简考前记忆版”；
+用官方题目或 mock exam 检验理解。
+
+Suggested study approach:
+
+Read the core positioning of each module.
+Review the key concepts and formulas.
+Focus on common exam traps and question-solving logic.
+Use the quick memory version before the exam.
+Test understanding with official questions or mock exams.
+---
+
+##**Disclaimer | 免责声明**
+
+This repository is for personal study and educational purposes only.
+
+It is not affiliated with, endorsed by, or sponsored by CFA Institute.
+CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.
+
+本 repository 仅用于个人学习和教育目的。
+本项目与 CFA Institute 无任何官方关联，也不代表 CFA Institute 官方资料。
+CFA® 和 Chartered Financial Analyst® 是 CFA Institute 拥有的注册商标。
+
+The notes are based on personal understanding and exam revision needs. They should not be treated as official CFA curriculum materials.
+
+---
+##**Future Plan | 后续计划**
+
+Planned updates include:
+
+More CFA readings and modules（CFA level II and III)
+Formula sheets
+Exam trap summaries
+Question-solving frameworks
+Topic comparison tables
+Quick review notes before the exam
+
+后续计划包括：
+
+持续更新更多 CFA readings （CFA level II and III)
+整理公式表
+整理高频陷阱
+整理做题框架
+制作概念对比表
+制作考前速记版本
+
+---
+##**Author**
+
+Created by Pedro Xia as part of a personal finance, investment, and CFA exam revision project.
+
+本项目由 Pedro Xia 创建，用于个人 CFA 考试复习、金融知识整理和投资研究学习。
