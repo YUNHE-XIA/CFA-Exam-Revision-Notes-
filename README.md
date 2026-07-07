@@ -61,51 +61,6 @@ Each reading or module is usually organised with the following structure:
 
 ---
 
-## 当前内容 | Current Topics
-
-### Equity Investments | 权益投资
-
-- Market efficiency | 市场有效性
-- Security market indexes | 证券市场指数
-- Equity securities | 权益证券
-- Industry and company analysis | 行业与公司分析
-- Equity valuation | 权益估值
-- Dividend Discount Model, DDM | 股利折现模型
-- Gordon Growth Model | 戈登增长模型
-- Multistage DDM | 多阶段股利折现模型
-- Price multiples | 价格倍数估值
-- Enterprise value | 企业价值
-- Asset-based valuation | 资产基础法估值
-
-### Corporate Issuers | 公司金融 / 公司发行人
-
-- Capital budgeting | 资本预算
-- Working capital management | 营运资本管理
-- Capital structure | 资本结构
-- Cost of capital | 资本成本
-- Corporate governance | 公司治理
-- Capital allocation | 资本配置
-
-### Financial Statement Analysis | 财务报表分析
-
-- Financial statement modelling | 财务报表建模
-- Ratio analysis | 比率分析
-- Forecasting financial statements | 财务预测
-- Revenue forecasting | 收入预测
-- Operating expense forecasting | 经营费用预测
-- Working capital forecasting | 营运资本预测
-
-### Derivatives | 衍生品
-
-- Forward commitments | 远期承诺
-- Contingent claims | 或有求偿权
-- Forwards, futures, swaps, options, and CDS | 远期、期货、互换、期权与信用违约互换
-- Derivative benefits and risks | 衍生品的收益与风险
-- Issuer and investor use of derivatives | 发行人与投资者如何使用衍生品
-- Hedging and hedge accounting concepts | 对冲与套期会计概念
-
----
-
 ## 为什么建立这个 Repository | Why This Repository
 
 CFA 的内容非常系统，但每个 reading 信息量较大，直接阅读时容易抓不住重点。  
@@ -155,19 +110,19 @@ The notes focus on:
 
 可以按照以下方式使用本 repository：
 
-先阅读每个 module 的核心定位；
-再看概念解释和公式；
-重点复习“高频陷阱”和“做题思维”；
-考前快速查看“极简考前记忆版”；
-用官方题目或 mock exam 检验理解。
+- 先阅读每个 module 的核心定位；
+- 再看概念解释和公式；
+- 重点复习“高频陷阱”和“做题思维”；
+- 考前快速查看“极简考前记忆版”；
+- 用官方题目或 mock exam 检验理解。
 
 Suggested study approach:
 
-Read the core positioning of each module.
-Review the key concepts and formulas.
-Focus on common exam traps and question-solving logic.
-Use the quick memory version before the exam.
-Test understanding with official questions or mock exams.
+- Read the core positioning of each module.
+- Review the key concepts and formulas.
+- Focus on common exam traps and question-solving logic.
+- Use the quick memory version before the exam.
+- Test understanding with official questions or mock exams.
 
 ---
 
@@ -189,21 +144,21 @@ The notes are based on personal understanding and exam revision needs. They shou
 
 Planned updates include:
 
-More CFA readings and modules（CFA level II and III)
-Formula sheets
-Exam trap summaries
-Question-solving frameworks
-Topic comparison tables
-Quick review notes before the exam
+- More CFA readings and modules（CFA level II and III)
+- Formula sheets
+- Exam trap summaries
+- Question-solving frameworks
+- Topic comparison tables
+- Quick review notes before the exam
 
 后续计划包括：
 
-持续更新更多 CFA readings （CFA level II and III)
-整理公式表
-整理高频陷阱
-整理做题框架
-制作概念对比表
-制作考前速记版本
+- 持续更新更多 CFA readings （CFA level II and III)
+- 整理公式表
+- 整理高频陷阱
+- 整理做题框架
+- 制作概念对比表
+- 制作考前速记版本
 
 ---
 ## **Author**
