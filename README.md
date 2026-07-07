@@ -1,22 +1,11 @@
 # CFA-Exam-Revision-Notes
-CFA exam revision notes in Chinese with key English terms, formulas, examples, and exam-focused summaries.
-# CFA Exam Revision Notes
 
-## 中文简介
+## Summary | 简介
 
 这个 repository 用于整理我的 CFA 考试复习笔记。  
 笔记主要使用中文讲解，同时保留 CFA 原文中的核心英文术语，方便在理解概念的同时熟悉考试语言。
 
 本项目的目标是建立一个结构清晰、考试导向、方便快速复习的 CFA 知识库。
-
----
-
-## English Introduction
-
-This repository contains my structured revision notes for the CFA exam.  
-The notes are written mainly in Chinese, with key English financial terms retained to stay close to the original CFA curriculum and exam wording.
-
-The goal of this repository is to build a clear, exam-oriented, and easy-to-review knowledge base for CFA study.
 
 ---
 
