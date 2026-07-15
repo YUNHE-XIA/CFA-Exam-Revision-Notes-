@@ -57,40 +57,19 @@ The cash flow statement explains the change in cash between two balance sheet da
 Basic cash linkage:
 
 $$
-
-\text{Ending Cash}
-&=
-\text{Beginning Cash}
-+
-\text{Cash Inflows}
--
-\text{Cash Outflows}
+\text{Ending Cash} = \text{Beginning Cash} + \text{Cash Inflows} - \text{Cash Outflows}
 $$
 
 Accounts receivable linkage:
 
 $$
-\begin{aligned}
-\text{Beginning Accounts Receivable}
-+
-\text{Revenue}
--
-\text{Cash Collected from Customers}
-&=
-\text{Ending Accounts Receivable}
-\end{aligned}
+\text{Beginning Accounts Receivable} + \text{Revenue} - \text{Cash Collected from Customers} = \text{Ending Accounts Receivable}
 $$
 
 Therefore:
 
 $$
-\begin{aligned}
-\text{Cash Collected from Customers}
-&=
-\text{Revenue}
--
-\Delta \text{Accounts Receivable}
-\end{aligned}
+\text{Cash Collected from Customers} = \text{Revenue} - \Delta \text{Accounts Receivable}
 $$
 
 Key memory:
@@ -173,13 +152,7 @@ Key memory:
 Formula:
 
 $$
-\begin{aligned}
-\text{Cash Received from Customers}
-&=
-\text{Revenue}
--
-\Delta \text{Accounts Receivable}
-\end{aligned}
+\text{Cash Received from Customers} = \text{Revenue} - \Delta \text{Accounts Receivable}
 $$
 
 If accounts receivable increases:
@@ -199,16 +172,7 @@ Example:
 If revenue is 100 and accounts receivable increases by 10:
 
 $$
-\begin{aligned}
-\text{Cash Received}
-&=
-100
--
-10
-\\
-&=
-90
-\end{aligned}
+\text{Cash Received} = 100 - 10 = 90
 $$
 
 Key memory:
@@ -223,39 +187,19 @@ Key memory:
 First calculate purchases:
 
 $$
-\begin{aligned}
-\text{Purchases}
-&=
-\text{COGS}
-+
-\Delta \text{Inventory}
-\end{aligned}
+\text{Purchases} = \text{COGS} + \Delta \text{Inventory}
 $$
 
 Then calculate cash paid to suppliers:
 
 $$
-\begin{aligned}
-\text{Cash Paid to Suppliers}
-&=
-\text{Purchases}
--
-\Delta \text{Accounts Payable}
-\end{aligned}
+\text{Cash Paid to Suppliers} = \text{Purchases} - \Delta \text{Accounts Payable}
 $$
 
 Combined formula:
 
 $$
-\begin{aligned}
-\text{Cash Paid to Suppliers}
-&=
-\text{COGS}
-+
-\Delta \text{Inventory}
--
-\Delta \text{Accounts Payable}
-\end{aligned}
+\text{Cash Paid to Suppliers} = \text{COGS} + \Delta \text{Inventory} - \Delta \text{Accounts Payable}
 $$
 
 Interpretation:
@@ -277,13 +221,7 @@ Key memory:
 Formula:
 
 $$
-\begin{aligned}
-\text{Cash Paid to Employees}
-&=
-\text{Salary and Wage Expense}
--
-\Delta \text{Salary and Wage Payable}
-\end{aligned}
+\text{Cash Paid to Employees} = \text{Salary and Wage Expense} - \Delta \text{Salary and Wage Payable}
 $$
 
 If salary payable increases:
@@ -309,15 +247,7 @@ Key memory:
 Formula:
 
 $$
-\begin{aligned}
-\text{Cash Paid for Other Operating Expenses}
-&=
-\text{Other Operating Expenses}
-+
-\Delta \text{Prepaid Expenses}
--
-\Delta \text{Accrued Liabilities}
-\end{aligned}
+\text{Cash Paid for Other Operating Expenses} = \text{Other Operating Expenses} + \Delta \text{Prepaid Expenses} - \Delta \text{Accrued Liabilities}
 $$
 
 Interpretation:
@@ -339,13 +269,7 @@ Key memory:
 Formula:
 
 $$
-\begin{aligned}
-\text{Cash Paid for Interest}
-&=
-\text{Interest Expense}
--
-\Delta \text{Interest Payable}
-\end{aligned}
+\text{Cash Paid for Interest} = \text{Interest Expense} - \Delta \text{Interest Payable}
 $$
 
 If interest payable increases:
@@ -368,13 +292,7 @@ Key memory:
 Simple formula:
 
 $$
-\begin{aligned}
-\text{Cash Paid for Income Taxes}
-&=
-\text{Income Tax Expense}
--
-\Delta \text{Income Tax Payable}
-\end{aligned}
+\text{Cash Paid for Income Taxes} = \text{Income Tax Expense} - \Delta \text{Income Tax Payable}
 $$
 
 If income tax payable increases:
@@ -404,19 +322,7 @@ The indirect method starts with net income and adjusts to CFO.
 General structure:
 
 $$
-\begin{aligned}
-\text{CFO}
-&=
-\text{Net Income}
-+
-\text{Non-cash Charges}
--
-\text{Non-operating Gains}
-+
-\text{Non-operating Losses}
-\pm
-\text{Working Capital Adjustments}
-\end{aligned}
+\text{CFO} = \text{Net Income} + \text{Non-cash Charges} - \text{Non-operating Gains} + \text{Non-operating Losses} \pm \text{Working Capital Adjustments}
 $$
 
 Common additions:
@@ -499,13 +405,7 @@ Depreciation reduces net income but does not use cash in the current period.
 Therefore, under the indirect method:
 
 $$
-\begin{aligned}
-\text{Cash Flow Adjustment}
-&=
-\text{Net Income}
-+
-\text{Depreciation}
-\end{aligned}
+\text{Cash Flow Adjustment} = \text{Net Income} + \text{Depreciation}
 $$
 
 Important:
@@ -605,41 +505,19 @@ To compute cash received from sale of equipment:
 ### Step 1: Calculate Historical Cost of Equipment Sold
 
 $$
-\begin{aligned}
-\text{Cost of Equipment Sold}
-&=
-\text{Beginning Equipment}
-+
-\text{Equipment Purchased}
--
-\text{Ending Equipment}
-\end{aligned}
+\text{Cost of Equipment Sold} = \text{Beginning Equipment} + \text{Equipment Purchased} - \text{Ending Equipment}
 $$
 
 ### Step 2: Calculate Accumulated Depreciation on Equipment Sold
 
 $$
-\begin{aligned}
-\text{Accumulated Depreciation on Equipment Sold}
-&=
-\text{Beginning Accumulated Depreciation}
-+
-\text{Depreciation Expense}
--
-\text{Ending Accumulated Depreciation}
-\end{aligned}
+\text{Accumulated Depreciation on Equipment Sold} = \text{Beginning Accumulated Depreciation} + \text{Depreciation Expense} - \text{Ending Accumulated Depreciation}
 $$
 
 ### Step 3: Calculate Book Value of Equipment Sold
 
 $$
-\begin{aligned}
-\text{Book Value}
-&=
-\text{Historical Cost}
--
-\text{Accumulated Depreciation}
-\end{aligned}
+\text{Book Value} = \text{Historical Cost} - \text{Accumulated Depreciation}
 $$
 
 ### Step 4: Calculate Cash Received
@@ -647,25 +525,13 @@ $$
 If there is a gain:
 
 $$
-\begin{aligned}
-\text{Cash Received}
-&=
-\text{Book Value}
-+
-\text{Gain on Sale}
-\end{aligned}
+\text{Cash Received} = \text{Book Value} + \text{Gain on Sale}
 $$
 
 If there is a loss:
 
 $$
-\begin{aligned}
-\text{Cash Received}
-&=
-\text{Book Value}
--
-\text{Loss on Sale}
-\end{aligned}
+\text{Cash Received} = \text{Book Value} - \text{Loss on Sale}
 $$
 
 Key memory:
@@ -707,29 +573,13 @@ Dividends paid can be calculated from retained earnings.
 Basic relationship:
 
 $$
-\begin{aligned}
-\text{Beginning Retained Earnings}
-+
-\text{Net Income}
--
-\text{Dividends}
-&=
-\text{Ending Retained Earnings}
-\end{aligned}
+\text{Beginning Retained Earnings} + \text{Net Income} - \text{Dividends} = \text{Ending Retained Earnings}
 $$
 
 Therefore:
 
 $$
-\begin{aligned}
-\text{Dividends Paid}
-&=
-\text{Beginning Retained Earnings}
-+
-\text{Net Income}
--
-\text{Ending Retained Earnings}
-\end{aligned}
+\text{Dividends Paid} = \text{Beginning Retained Earnings} + \text{Net Income} - \text{Ending Retained Earnings}
 $$
 
 This works when retained earnings are affected only by net income and dividends.
@@ -845,13 +695,7 @@ Free cash flow is cash available after operating needs and necessary capital inv
 General idea:
 
 $$
-\begin{aligned}
-\text{Free Cash Flow}
-&=
-\text{CFO}
--
-\text{Capital Expenditures}
-\end{aligned}
+\text{Free Cash Flow} = \text{CFO} - \text{Capital Expenditures}
 $$
 
 Positive free cash flow means the company can potentially:
@@ -875,43 +719,13 @@ FCFF is cash flow available to both debt and equity investors.
 Formula from net income:
 
 $$
-\begin{aligned}
-\text{FCFF}
-&=
-\text{NI}
-+
-\text{NCC}
-+
-\text{Int}
-\left(
-1
--
-\text{Tax Rate}
-\right)
--
-\text{FCInv}
--
-\text{WCInv}
-\end{aligned}
+\text{FCFF} = \text{NI} + \text{NCC} + \text{Int}(1 - \text{Tax Rate}) - \text{FCInv} - \text{WCInv}
 $$
 
 Formula from CFO:
 
 $$
-\begin{aligned}
-\text{FCFF}
-&=
-\text{CFO}
-+
-\text{Int}
-\left(
-1
--
-\text{Tax Rate}
-\right)
--
-\text{FCInv}
-\end{aligned}
+\text{FCFF} = \text{CFO} + \text{Int}(1 - \text{Tax Rate}) - \text{FCInv}
 $$
 
 Where:
@@ -941,29 +755,13 @@ FCFE is cash flow available to common shareholders.
 Formula:
 
 $$
-\begin{aligned}
-\text{FCFE}
-&=
-\text{CFO}
--
-\text{FCInv}
-+
-\text{Net Borrowing}
-\end{aligned}
+\text{FCFE} = \text{CFO} - \text{FCInv} + \text{Net Borrowing}
 $$
 
 If debt repayment is greater than new borrowing:
 
 $$
-\begin{aligned}
-\text{FCFE}
-&=
-\text{CFO}
--
-\text{FCInv}
--
-\text{Net Debt Repayment}
-\end{aligned}
+\text{FCFE} = \text{CFO} - \text{FCInv} - \text{Net Debt Repayment}
 $$
 
 Interpretation:
@@ -1002,11 +800,7 @@ Performance ratios measure cash-generating ability.
 ### Cash Flow to Revenue
 
 $$
-\begin{aligned}
-\text{Cash Flow to Revenue}
-&=
-\frac{\text{CFO}}{\text{Net Revenue}}
-\end{aligned}
+\text{Cash Flow to Revenue} = \frac{\text{CFO}}{\text{Net Revenue}}
 $$
 
 Measures:
@@ -1016,11 +810,7 @@ Measures:
 ### Cash Return on Assets
 
 $$
-\begin{aligned}
-\text{Cash Return on Assets}
-&=
-\frac{\text{CFO}}{\text{Average Total Assets}}
-\end{aligned}
+\text{Cash Return on Assets} = \frac{\text{CFO}}{\text{Average Total Assets}}
 $$
 
 Measures:
@@ -1030,11 +820,7 @@ Measures:
 ### Cash Return on Equity
 
 $$
-\begin{aligned}
-\text{Cash Return on Equity}
-&=
-\frac{\text{CFO}}{\text{Average Shareholders' Equity}}
-\end{aligned}
+\text{Cash Return on Equity} = \frac{\text{CFO}}{\text{Average Shareholders' Equity}}
 $$
 
 Measures:
@@ -1044,11 +830,7 @@ Measures:
 ### Cash to Income
 
 $$
-\begin{aligned}
-\text{Cash to Income}
-&=
-\frac{\text{CFO}}{\text{Operating Income}}
-\end{aligned}
+\text{Cash to Income} = \frac{\text{CFO}}{\text{Operating Income}}
 $$
 
 Measures:
@@ -1058,17 +840,7 @@ Measures:
 ### Cash Flow per Share
 
 $$
-\begin{aligned}
-\text{Cash Flow per Share}
-&=
-\frac{
-\text{CFO}
--
-\text{Preferred Dividends}
-}{
-\text{Common Shares Outstanding}
-}
-\end{aligned}
+\text{Cash Flow per Share} = \frac{\text{CFO} - \text{Preferred Dividends}}{\text{Common Shares Outstanding}}
 $$
 
 Measures:
@@ -1084,69 +856,37 @@ Coverage ratios measure solvency and ability to meet obligations.
 ### Debt Coverage
 
 $$
-\begin{aligned}
-\text{Debt Coverage}
-&=
-\frac{\text{CFO}}{\text{Total Debt}}
-\end{aligned}
+\text{Debt Coverage} = \frac{\text{CFO}}{\text{Total Debt}}
 $$
 
 ### Interest Coverage
 
 $$
-\begin{aligned}
-\text{Interest Coverage}
-&=
-\frac{
-\text{CFO}
-+
-\text{Interest Paid}
-+
-\text{Taxes Paid}
-}{
-\text{Interest Paid}
-}
-\end{aligned}
+\text{Interest Coverage} = \frac{\text{CFO} + \text{Interest Paid} + \text{Taxes Paid}}{\text{Interest Paid}}
 $$
 
 ### Reinvestment Ratio
 
 $$
-\begin{aligned}
-\text{Reinvestment}
-&=
-\frac{\text{CFO}}{\text{Cash Paid for Long-Term Assets}}
-\end{aligned}
+\text{Reinvestment} = \frac{\text{CFO}}{\text{Cash Paid for Long-Term Assets}}
 $$
 
 ### Debt Payment Ratio
 
 $$
-\begin{aligned}
-\text{Debt Payment}
-&=
-\frac{\text{CFO}}{\text{Cash Paid for Long-Term Debt Repayment}}
-\end{aligned}
+\text{Debt Payment} = \frac{\text{CFO}}{\text{Cash Paid for Long-Term Debt Repayment}}
 $$
 
 ### Dividend Payment Ratio
 
 $$
-\begin{aligned}
-\text{Dividend Payment}
-&=
-\frac{\text{CFO}}{\text{Dividends Paid}}
-\end{aligned}
+\text{Dividend Payment} = \frac{\text{CFO}}{\text{Dividends Paid}}
 $$
 
 ### Investing and Financing Ratio
 
 $$
-\begin{aligned}
-\text{Investing and Financing}
-&=
-\frac{\text{CFO}}{\text{Cash Outflows for Investing and Financing Activities}}
-\end{aligned}
+\text{Investing and Financing} = \frac{\text{CFO}}{\text{Cash Outflows for Investing and Financing Activities}}
 $$
 
 Key memory:
@@ -1218,227 +958,95 @@ Key memory:
 ### Ending Cash
 
 $$
-\begin{aligned}
-\text{Ending Cash}
-&=
-\text{Beginning Cash}
-+
-\text{Cash Inflows}
--
-\text{Cash Outflows}
-\end{aligned}
+\text{Ending Cash} = \text{Beginning Cash} + \text{Cash Inflows} - \text{Cash Outflows}
 $$
 
 ### Cash Received from Customers
 
 $$
-\begin{aligned}
-\text{Cash Received from Customers}
-&=
-\text{Revenue}
--
-\Delta \text{Accounts Receivable}
-\end{aligned}
+\text{Cash Received from Customers} = \text{Revenue} - \Delta \text{Accounts Receivable}
 $$
 
 ### Purchases from Suppliers
 
 $$
-\begin{aligned}
-\text{Purchases}
-&=
-\text{COGS}
-+
-\Delta \text{Inventory}
-\end{aligned}
+\text{Purchases} = \text{COGS} + \Delta \text{Inventory}
 $$
 
 ### Cash Paid to Suppliers
 
 $$
-\begin{aligned}
-\text{Cash Paid to Suppliers}
-&=
-\text{COGS}
-+
-\Delta \text{Inventory}
--
-\Delta \text{Accounts Payable}
-\end{aligned}
+\text{Cash Paid to Suppliers} = \text{COGS} + \Delta \text{Inventory} - \Delta \text{Accounts Payable}
 $$
 
 ### Cash Paid to Employees
 
 $$
-\begin{aligned}
-\text{Cash Paid to Employees}
-&=
-\text{Salary and Wage Expense}
--
-\Delta \text{Salary and Wage Payable}
-\end{aligned}
+\text{Cash Paid to Employees} = \text{Salary and Wage Expense} - \Delta \text{Salary and Wage Payable}
 $$
 
 ### Cash Paid for Other Operating Expenses
 
 $$
-\begin{aligned}
-\text{Cash Paid for Other Operating Expenses}
-&=
-\text{Other Operating Expenses}
-+
-\Delta \text{Prepaid Expenses}
--
-\Delta \text{Accrued Liabilities}
-\end{aligned}
+\text{Cash Paid for Other Operating Expenses} = \text{Other Operating Expenses} + \Delta \text{Prepaid Expenses} - \Delta \text{Accrued Liabilities}
 $$
 
 ### Cash Paid for Interest
 
 $$
-\begin{aligned}
-\text{Cash Paid for Interest}
-&=
-\text{Interest Expense}
--
-\Delta \text{Interest Payable}
-\end{aligned}
+\text{Cash Paid for Interest} = \text{Interest Expense} - \Delta \text{Interest Payable}
 $$
 
 ### Cash Paid for Income Taxes
 
 $$
-\begin{aligned}
-\text{Cash Paid for Income Taxes}
-&=
-\text{Income Tax Expense}
--
-\Delta \text{Income Tax Payable}
-\end{aligned}
+\text{Cash Paid for Income Taxes} = \text{Income Tax Expense} - \Delta \text{Income Tax Payable}
 $$
 
 ### Indirect CFO
 
 $$
-\begin{aligned}
-\text{CFO}
-&=
-\text{NI}
-+
-\text{Non-cash Charges}
--
-\text{Non-operating Gains}
-+
-\text{Non-operating Losses}
-\pm
-\text{Working Capital Adjustments}
-\end{aligned}
+\text{CFO} = \text{NI} + \text{Non-cash Charges} - \text{Non-operating Gains} + \text{Non-operating Losses} \pm \text{Working Capital Adjustments}
 $$
 
 ### Dividends Paid
 
 $$
-\begin{aligned}
-\text{Dividends Paid}
-&=
-\text{Beginning Retained Earnings}
-+
-\text{Net Income}
--
-\text{Ending Retained Earnings}
-\end{aligned}
+\text{Dividends Paid} = \text{Beginning Retained Earnings} + \text{Net Income} - \text{Ending Retained Earnings}
 $$
 
 ### FCFF from Net Income
 
 $$
-\begin{aligned}
-\text{FCFF}
-&=
-\text{NI}
-+
-\text{NCC}
-+
-\text{Int}
-\left(
-1
--
-\text{Tax Rate}
-\right)
--
-\text{FCInv}
--
-\text{WCInv}
-\end{aligned}
+\text{FCFF} = \text{NI} + \text{NCC} + \text{Int}(1 - \text{Tax Rate}) - \text{FCInv} - \text{WCInv}
 $$
 
 ### FCFF from CFO
 
 $$
-\begin{aligned}
-\text{FCFF}
-&=
-\text{CFO}
-+
-\text{Int}
-\left(
-1
--
-\text{Tax Rate}
-\right)
--
-\text{FCInv}
-\end{aligned}
+\text{FCFF} = \text{CFO} + \text{Int}(1 - \text{Tax Rate}) - \text{FCInv}
 $$
 
 ### FCFE
 
 $$
-\begin{aligned}
-\text{FCFE}
-&=
-\text{CFO}
--
-\text{FCInv}
-+
-\text{Net Borrowing}
-\end{aligned}
+\text{FCFE} = \text{CFO} - \text{FCInv} + \text{Net Borrowing}
 $$
 
 ### Cash Flow to Revenue
 
 $$
-\begin{aligned}
-\text{Cash Flow to Revenue}
-&=
-\frac{\text{CFO}}{\text{Net Revenue}}
-\end{aligned}
+\text{Cash Flow to Revenue} = \frac{\text{CFO}}{\text{Net Revenue}}
 $$
 
 ### Debt Coverage
 
 $$
-\begin{aligned}
-\text{Debt Coverage}
-&=
-\frac{\text{CFO}}{\text{Total Debt}}
-\end{aligned}
+\text{Debt Coverage} = \frac{\text{CFO}}{\text{Total Debt}}
 $$
 
 ### Interest Coverage
 
 $$
-\begin{aligned}
-\text{Interest Coverage}
-&=
-\frac{
-\text{CFO}
-+
-\text{Interest Paid}
-+
-\text{Taxes Paid}
-}{
-\text{Interest Paid}
-}
-\end{aligned}
+\text{Interest Coverage} = \frac{\text{CFO} + \text{Interest Paid} + \text{Taxes Paid}}{\text{Interest Paid}}
 $$
