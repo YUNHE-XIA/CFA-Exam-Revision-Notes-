@@ -690,27 +690,37 @@ $$
 
 ## 19. Simple Bayes Example | 简单贝叶斯例子
 
-Suppose:
+Suppose there are three possible earnings outcomes:
 
-- \(P(\text{Beat}) = 0.45\)
-- \(P(\text{Meet}) = 0.30\)
-- \(P(\text{Miss}) = 0.25\)
+| Scenario | Prior Probability |
+|---|---:|
+| EPS beats consensus | 0.45 |
+| EPS meets consensus | 0.30 |
+| EPS misses consensus | 0.25 |
 
 New information:
 
-> Company expands capacity.
+> The company announces capacity expansion.
 
 Likelihoods:
 
-- \(P(\text{Expand} \mid \text{Beat}) = 0.75\)
-- \(P(\text{Expand} \mid \text{Meet}) = 0.20\)
-- \(P(\text{Expand} \mid \text{Miss}) = 0.05\)
+| Scenario | Probability of Expansion Given Scenario |
+|---|---:|
+| Beat consensus | 0.75 |
+| Meet consensus | 0.20 |
+| Miss consensus | 0.05 |
 
-First calculate total probability of expansion:
+First, calculate the total probability of expansion:
 
 $$
 \begin{aligned}
 P(\text{Expand})
+&=
+P(\text{Expand} \mid \text{Beat})P(\text{Beat})
++
+P(\text{Expand} \mid \text{Meet})P(\text{Meet})
++
+P(\text{Expand} \mid \text{Miss})P(\text{Miss}) \\
 &=
 0.75(0.45)
 +
@@ -722,11 +732,17 @@ P(\text{Expand})
 \end{aligned}
 $$
 
-Then calculate updated probability of Beat:
+Then, calculate the updated probability that EPS beats consensus:
 
 $$
 \begin{aligned}
 P(\text{Beat} \mid \text{Expand})
+&=
+\frac{
+P(\text{Expand} \mid \text{Beat})P(\text{Beat})
+}{
+P(\text{Expand})
+} \\
 &=
 \frac{
 0.75(0.45)
@@ -743,7 +759,9 @@ Interpretation:
 > Before the announcement, the probability of beating consensus was 45%.  
 > After the expansion announcement, the updated probability is 82.32%.
 
----
+记忆：
+
+> Posterior probability = likelihood × prior probability / total probability of new information.
 
 ## 20. Investment Applications | 投资应用
 
