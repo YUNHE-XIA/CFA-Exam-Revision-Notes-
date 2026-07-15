@@ -12,12 +12,11 @@ The statement of cash flows reports a company’s cash inflows and cash outflows
 
 Cash flow statement analysis helps investors evaluate:
 
-- liquidity：短期流动性；
+- liquidity：短期偿债能力；
 - solvency：长期偿债能力；
 - financial flexibility：财务灵活性；
 - earnings quality：盈利质量；
-- future cash flow：未来现金流预测；
-- valuation：估值。
+- future cash flow and valuation：未来现金流与估值。
 
 Key memory:
 
@@ -29,6 +28,8 @@ Key memory:
 
 ## 2. Three Sections of the Cash Flow Statement | 现金流量表三大部分
 
+Cash flows are classified into three categories:
+
 | Section | Full Name | 中文 | Meaning |
 |---|---|---|---|
 | CFO | Cash Flow from Operating Activities | 经营活动现金流 | Cash from normal business operations |
@@ -38,14 +39,22 @@ Key memory:
 Key memory:
 
 > CFO = business operations.  
-> CFI = long-term asset investment.  
+> CFI = asset investment.  
 > CFF = capital providers.
 
 ---
 
 ## 3. Linkages between Financial Statements | 三张报表的联系
 
-The cash flow statement links the beginning and ending cash balances on the balance sheet.
+The income statement, balance sheet, and cash flow statement are linked.
+
+The balance sheet shows financial position at a point in time.
+
+The income statement shows accrual-based performance over a period.
+
+The cash flow statement explains the change in cash between two balance sheet dates.
+
+Basic cash linkage:
 
 $$
 \begin{aligned}
@@ -59,55 +68,7 @@ $$
 \end{aligned}
 $$
 
-The income statement, balance sheet, and cash flow statement are connected.
-
-| Statement | 中文 | Main Function |
-|---|---|---|
-| Balance Sheet | 资产负债表 | Shows financial position at a point in time |
-| Income Statement | 利润表 | Shows accrual-based performance over a period |
-| Cash Flow Statement | 现金流量表 | Shows cash inflows and outflows over a period |
-| Statement of Shareholders' Equity | 股东权益变动表 | Explains changes in equity accounts |
-
-Key memory:
-
-> Balance sheet is a stock statement.  
-> Income statement and cash flow statement are flow statements.
-
----
-
-## 4. Accrual Accounting vs Cash Flow | 权责发生制 vs 现金流
-
-Income statement is based on accrual accounting.
-
-This means:
-
-- revenue is recognized when earned；
-- expense is recognized when incurred；
-- cash may be received or paid at a different time。
-
-Example:
-
-If revenue is greater than cash collected:
-
-> Accounts receivable increases.
-
-If expense is greater than cash paid:
-
-> Payables or accrued liabilities increase.
-
-If cash is received before revenue is earned:
-
-> Deferred revenue increases.
-
-Key memory:
-
-> Accrual accounting creates working capital adjustments.
-
----
-
-## 5. Cash Received from Customers | 从客户收到的现金
-
-The accounts receivable linkage is:
+Accounts receivable linkage:
 
 $$
 \begin{aligned}
@@ -133,30 +94,55 @@ $$
 \end{aligned}
 $$
 
-Interpretation:
-
-- accounts receivable increases → cash collected is lower than revenue；
-- accounts receivable decreases → cash collected is higher than revenue。
-
 Key memory:
 
-> AR up, subtract.  
-> AR down, add.
+> Income statement records revenue when earned.  
+> Cash flow statement records cash when received.
 
 ---
 
-## 6. Direct Method vs Indirect Method | 直接法 vs 间接法
+## 4. Accrual Accounting vs Cash Flow | 权责发生制 vs 现金流
+
+The income statement is prepared under accrual accounting.
+
+This means:
+
+- revenue is recognized when earned；
+- expenses are recognized when incurred；
+- cash may be received or paid at a different time。
+
+Examples:
+
+If revenue is greater than cash collected:
+
+> Accounts receivable increases.
+
+If expense is greater than cash paid:
+
+> Payable or accrued liability increases.
+
+If cash is received before revenue is earned:
+
+> Deferred revenue increases.
+
+Key memory:
+
+> Accrual accounting creates working capital adjustments.
+
+---
+
+## 5. Direct Method vs Indirect Method | 直接法 vs 间接法
 
 Companies can report operating cash flow using either the direct method or the indirect method.
 
 | Method | 中文 | Main Idea |
 |---|---|---|
-| Direct Method | 直接法 | Reports actual cash receipts and cash payments |
-| Indirect Method | 间接法 | Starts with net income and adjusts to CFO |
+| Direct method | 直接法 | Reports major cash receipts and cash payments |
+| Indirect method | 间接法 | Starts with net income and adjusts to CFO |
 
 ### Direct Method
 
-The direct method reports major operating cash inflows and outflows.
+The direct method reports major cash receipts and cash payments directly.
 
 Examples:
 
@@ -168,12 +154,12 @@ Examples:
 
 ### Indirect Method
 
-The indirect method reconciles net income to operating cash flow.
+The indirect method starts with net income and adjusts it to operating cash flow.
 
 Adjustments include:
 
 - non-cash expenses；
-- non-operating gains and losses；
+- non-operating gains or losses；
 - changes in working capital accounts。
 
 Key memory:
@@ -183,13 +169,63 @@ Key memory:
 
 ---
 
-## 7. Direct Method: Cash Paid to Suppliers | 直接法：支付给供应商的现金
+## 6. Direct Method: Cash Received from Customers | 直接法：从客户收到的现金
 
-First, calculate purchases from suppliers:
+Formula:
 
 $$
 \begin{aligned}
-\text{Purchases from Suppliers}
+\text{Cash Received from Customers}
+&=
+\text{Revenue}
+-
+\Delta \text{Accounts Receivable}
+\end{aligned}
+$$
+
+If accounts receivable increases:
+
+> subtract the increase.
+
+If accounts receivable decreases:
+
+> add the decrease.
+
+Reason:
+
+> An increase in accounts receivable means some revenue has not yet been collected in cash.
+
+Example:
+
+If revenue is 100 and accounts receivable increases by 10:
+
+$$
+\begin{aligned}
+\text{Cash Received}
+&=
+100
+-
+10
+\\
+&=
+90
+\end{aligned}
+$$
+
+Key memory:
+
+> AR up, cash collected is lower than revenue.  
+> AR down, cash collected is higher than revenue.
+
+---
+
+## 7. Direct Method: Cash Paid to Suppliers | 直接法：支付给供应商的现金
+
+First calculate purchases:
+
+$$
+\begin{aligned}
+\text{Purchases}
 &=
 \text{COGS}
 +
@@ -197,13 +233,13 @@ $$
 \end{aligned}
 $$
 
-Then, calculate cash paid to suppliers:
+Then calculate cash paid to suppliers:
 
 $$
 \begin{aligned}
 \text{Cash Paid to Suppliers}
 &=
-\text{Purchases from Suppliers}
+\text{Purchases}
 -
 \Delta \text{Accounts Payable}
 \end{aligned}
@@ -225,10 +261,10 @@ $$
 
 Interpretation:
 
-- inventory increases → purchases exceed COGS → add；
-- inventory decreases → purchases are less than COGS → subtract；
-- accounts payable increases → not all purchases were paid in cash → subtract；
-- accounts payable decreases → cash paid exceeds purchases → add。
+- inventory increases → company bought more than it sold → cash paid may increase；
+- inventory decreases → company bought less than it sold → cash paid may decrease；
+- accounts payable increases → company has not paid all purchases yet → cash paid decreases；
+- accounts payable decreases → company paid more cash than current purchases → cash paid increases。
 
 Key memory:
 
@@ -238,6 +274,8 @@ Key memory:
 ---
 
 ## 8. Direct Method: Cash Paid to Employees | 直接法：支付给员工的现金
+
+Formula:
 
 $$
 \begin{aligned}
@@ -249,10 +287,17 @@ $$
 \end{aligned}
 $$
 
-Interpretation:
+If salary payable increases:
 
-- salary payable increases → cash paid is lower than salary expense；
-- salary payable decreases → cash paid is higher than salary expense。
+> subtract the increase.
+
+If salary payable decreases:
+
+> add the decrease.
+
+Reason:
+
+> An increase in salary payable means expenses were recorded but not yet paid in cash.
 
 Key memory:
 
@@ -261,6 +306,8 @@ Key memory:
 ---
 
 ## 9. Direct Method: Cash Paid for Other Operating Expenses | 直接法：支付其他经营费用
+
+Formula:
 
 $$
 \begin{aligned}
@@ -276,10 +323,10 @@ $$
 
 Interpretation:
 
-- prepaid expenses increase → cash paid is higher than expense；
+- prepaid expenses increase → cash paid is greater than expense；
 - prepaid expenses decrease → cash paid is lower than expense；
 - accrued liabilities increase → cash paid is lower than expense；
-- accrued liabilities decrease → cash paid is higher than expense。
+- accrued liabilities decrease → cash paid is greater than expense。
 
 Key memory:
 
@@ -289,6 +336,8 @@ Key memory:
 ---
 
 ## 10. Direct Method: Cash Paid for Interest | 直接法：支付利息
+
+Formula:
 
 $$
 \begin{aligned}
@@ -300,14 +349,18 @@ $$
 \end{aligned}
 $$
 
-Interpretation:
+If interest payable increases:
 
-- interest payable increases → cash paid is lower than interest expense；
-- interest payable decreases → cash paid is higher than interest expense。
+> cash paid is lower than interest expense.
+
+If interest payable decreases:
+
+> cash paid is greater than interest expense.
 
 Key memory:
 
-> Interest payable down, cash paid is higher than interest expense.
+> Interest payable up, subtract.  
+> Interest payable down, add.
 
 ---
 
@@ -325,10 +378,13 @@ $$
 \end{aligned}
 $$
 
-Interpretation:
+If income tax payable increases:
 
-- income tax payable increases → cash paid is lower than tax expense；
-- income tax payable decreases → cash paid is higher than tax expense。
+> cash paid is lower than tax expense.
+
+If income tax payable decreases:
+
+> cash paid is higher than tax expense.
 
 More complete analysis may also consider:
 
@@ -344,13 +400,15 @@ Key memory:
 
 ## 12. Indirect Method | 间接法
 
-The indirect method starts with net income and adjusts it to CFO.
+The indirect method starts with net income and adjusts to CFO.
+
+General structure:
 
 $$
 \begin{aligned}
-CFO
+\text{CFO}
 &=
-NI
+\text{Net Income}
 +
 \text{Non-cash Charges}
 -
@@ -390,14 +448,17 @@ Key memory:
 
 ---
 
-## 13. Working Capital Adjustments | 营运资本调整
+## 13. Working Capital Adjustments under Indirect Method | 间接法营运资本调整
 
 ### Current Operating Assets
 
-| Change | CFO Effect |
-|---|---|
-| Current operating assets increase | Subtract |
-| Current operating assets decrease | Add |
+If current operating assets increase:
+
+> subtract from net income.
+
+If current operating assets decrease:
+
+> add to net income.
 
 Examples:
 
@@ -407,10 +468,13 @@ Examples:
 
 ### Current Operating Liabilities
 
-| Change | CFO Effect |
-|---|---|
-| Current operating liabilities increase | Add |
-| Current operating liabilities decrease | Subtract |
+If current operating liabilities increase:
+
+> add to net income.
+
+If current operating liabilities decrease:
+
+> subtract from net income.
 
 Examples:
 
@@ -433,15 +497,15 @@ Key memory:
 
 Depreciation reduces net income but does not use cash in the current period.
 
-Under the indirect method:
+Therefore, under the indirect method:
 
 $$
 \begin{aligned}
+\text{Cash Flow Adjustment}
+&=
 \text{Net Income}
 +
 \text{Depreciation}
-&=
-\text{Cash Flow Adjustment}
 \end{aligned}
 $$
 
@@ -460,18 +524,16 @@ Key memory:
 
 Gain or loss on sale of assets is non-operating.
 
-The actual cash received from the sale is reported in investing activities.
+The cash received from sale belongs in investing activities.
 
-Under the indirect method:
+Therefore, under the indirect method:
 
-| Item | CFO Adjustment |
-|---|---|
-| Gain on sale of assets | Subtract |
-| Loss on sale of assets | Add |
+- gain on sale is subtracted from net income；
+- loss on sale is added back to net income。
 
 Key memory:
 
-> Gain is removed from CFO because the cash effect belongs in CFI.  
+> Gain is removed from CFO because cash effect is in CFI.  
 > Loss is added back for the same reason.
 
 ---
@@ -491,7 +553,7 @@ Start from income statement items:
 - salary expense；
 - other operating expenses；
 - interest expense；
-- income tax expense。
+- tax expense。
 
 ### Step 2: Remove Non-cash and Non-operating Items
 
@@ -503,13 +565,14 @@ Remove items such as:
 
 ### Step 3: Convert Accrual Amounts into Cash Amounts
 
-Adjust revenues and expenses for changes in working capital:
+Adjust revenues and expenses for changes in working capital.
+
+Examples:
 
 - revenue adjusted by accounts receivable；
 - COGS adjusted by inventory and accounts payable；
 - salary expense adjusted by salary payable；
-- interest expense adjusted by interest payable；
-- tax expense adjusted by income tax payable。
+- interest expense adjusted by interest payable。
 
 Key memory:
 
@@ -519,24 +582,28 @@ Key memory:
 
 ## 17. Cash Flows from Investing Activities | 投资活动现金流
 
-Investing activities include cash flows related to long-term assets and investments.
-
-Examples:
+Investing activities usually include:
 
 - purchase of property, plant, and equipment；
 - sale of property, plant, and equipment；
 - purchase or sale of long-term investments；
 - acquisition or disposal of subsidiaries。
 
+Cash paid to purchase equipment is a cash outflow.
+
+Cash received from sale of equipment is a cash inflow.
+
 Key memory:
 
-> Investing cash flow shows how the company invests in or sells long-term assets.
+> Investing cash flow shows how the company invests in long-term assets.
 
 ---
 
 ## 18. Cash Received from Sale of Equipment | 出售设备收到的现金
 
-### Step 1: Calculate Cost of Equipment Sold
+To compute cash received from sale of equipment:
+
+### Step 1: Calculate Historical Cost of Equipment Sold
 
 $$
 \begin{aligned}
@@ -568,11 +635,11 @@ $$
 
 $$
 \begin{aligned}
-\text{Book Value of Equipment Sold}
+\text{Book Value}
 &=
-\text{Cost of Equipment Sold}
+\text{Historical Cost}
 -
-\text{Accumulated Depreciation on Equipment Sold}
+\text{Accumulated Depreciation}
 \end{aligned}
 $$
 
@@ -604,8 +671,7 @@ $$
 
 Key memory:
 
-> Cash received = book value plus gain.  
-> Cash received = book value minus loss.
+> Cash received = book value plus gain, or book value minus loss.
 
 ---
 
@@ -621,13 +687,13 @@ Examples:
 - repurchasing common stock；
 - paying dividends。
 
-| Transaction | Cash Flow Effect |
-|---|---|
-| Debt issuance | Financing cash inflow |
-| Debt repayment | Financing cash outflow |
-| Share issuance | Financing cash inflow |
-| Share repurchase | Financing cash outflow |
-| Dividends paid | Financing cash outflow under US GAAP |
+Interpretation:
+
+- debt issuance = financing cash inflow；
+- debt repayment = financing cash outflow；
+- share issuance = financing cash inflow；
+- share repurchase = financing cash outflow；
+- dividends paid = financing cash outflow under US GAAP。
 
 Key memory:
 
@@ -638,6 +704,8 @@ Key memory:
 ## 20. Dividends Paid | 支付股利
 
 Dividends paid can be calculated from retained earnings.
+
+Basic relationship:
 
 $$
 \begin{aligned}
@@ -665,7 +733,7 @@ $$
 \end{aligned}
 $$
 
-This formula works when retained earnings are affected only by net income and dividends.
+This works when retained earnings are affected only by net income and dividends.
 
 Key memory:
 
@@ -686,7 +754,7 @@ IFRS allows more classification flexibility than US GAAP.
 | Taxes paid | Generally operating, but can be investing or financing if specifically identifiable | Operating |
 | Bank overdrafts | May be part of cash equivalents | Financing, not cash equivalents |
 | Direct method | Allowed and encouraged | Allowed and encouraged |
-| Indirect reconciliation | Depends on reporting requirement | Required if direct method is used |
+| Indirect reconciliation | Not always the same requirement | Required if direct method is used |
 
 Key memory:
 
@@ -704,14 +772,13 @@ When analyzing a cash flow statement, follow four steps:
 3. Evaluate determinants of investing cash flow.
 4. Evaluate determinants of financing cash flow.
 
-Important questions:
+Key questions:
 
 - Is CFO positive?
 - Is CFO sufficient to cover capital expenditures?
 - Is CFO higher than net income?
 - Is the company investing for growth?
-- Is the company borrowing or repaying debt?
-- Is the company paying dividends or repurchasing shares?
+- Is the company borrowing, repaying debt, paying dividends, or repurchasing shares?
 
 Key memory:
 
@@ -723,7 +790,9 @@ Key memory:
 
 For a mature company, CFO is usually expected to exceed net income because net income includes non-cash expenses such as depreciation and amortization.
 
-If net income is high but CFO is weak, it may indicate poor earnings quality.
+If net income is high but CFO is weak:
+
+> earnings quality may be poor.
 
 Possible warning signs:
 
@@ -766,7 +835,7 @@ This helps with:
 
 Key memory:
 
-> Common-size analysis makes cash flow trends easier to compare.
+> Common-size cash flow statement makes cash flow trends easier to compare.
 
 ---
 
@@ -780,7 +849,7 @@ $$
 \begin{aligned}
 \text{Free Cash Flow}
 &=
-CFO
+\text{CFO}
 -
 \text{Capital Expenditures}
 \end{aligned}
@@ -796,7 +865,7 @@ Positive free cash flow means the company can potentially:
 
 Key memory:
 
-> CFO must first cover capex before cash is truly free.
+> CFO must first cover capex before cash can truly be free.
 
 ---
 
@@ -804,35 +873,45 @@ Key memory:
 
 FCFF is cash flow available to both debt and equity investors.
 
-### FCFF from Net Income
+Formula from net income:
 
 $$
 \begin{aligned}
-FCFF
+\text{FCFF}
 &=
-NI
+\text{NI}
 +
-NCC
+\text{NCC}
 +
-Int(1 - \text{Tax Rate})
+\text{Int}
+\left(
+1
 -
-FCInv
+\text{Tax Rate}
+\right)
 -
-WCInv
+\text{FCInv}
+-
+\text{WCInv}
 \end{aligned}
 $$
 
-### FCFF from CFO
+Formula from CFO:
 
 $$
 \begin{aligned}
-FCFF
+\text{FCFF}
 &=
-CFO
+\text{CFO}
 +
-Int(1 - \text{Tax Rate})
+\text{Int}
+\left(
+1
 -
-FCInv
+\text{Tax Rate}
+\right)
+-
+\text{FCInv}
 \end{aligned}
 $$
 
@@ -860,13 +939,15 @@ Key memory:
 
 FCFE is cash flow available to common shareholders.
 
+Formula:
+
 $$
 \begin{aligned}
-FCFE
+\text{FCFE}
 &=
-CFO
+\text{CFO}
 -
-FCInv
+\text{FCInv}
 +
 \text{Net Borrowing}
 \end{aligned}
@@ -876,11 +957,11 @@ If debt repayment is greater than new borrowing:
 
 $$
 \begin{aligned}
-FCFE
+\text{FCFE}
 &=
-CFO
+\text{CFO}
 -
-FCInv
+\text{FCInv}
 -
 \text{Net Debt Repayment}
 \end{aligned}
@@ -925,13 +1006,13 @@ $$
 \begin{aligned}
 \text{Cash Flow to Revenue}
 &=
-\frac{CFO}{\text{Net Revenue}}
+\frac{\text{CFO}}{\text{Net Revenue}}
 \end{aligned}
 $$
 
 Measures:
 
-> Operating cash generated per dollar of revenue.
+> operating cash generated per dollar of revenue.
 
 ### Cash Return on Assets
 
@@ -939,13 +1020,13 @@ $$
 \begin{aligned}
 \text{Cash Return on Assets}
 &=
-\frac{CFO}{\text{Average Total Assets}}
+\frac{\text{CFO}}{\text{Average Total Assets}}
 \end{aligned}
 $$
 
 Measures:
 
-> Operating cash generated per dollar of assets.
+> operating cash generated per dollar of assets.
 
 ### Cash Return on Equity
 
@@ -953,13 +1034,13 @@ $$
 \begin{aligned}
 \text{Cash Return on Equity}
 &=
-\frac{CFO}{\text{Average Shareholders' Equity}}
+\frac{\text{CFO}}{\text{Average Shareholders' Equity}}
 \end{aligned}
 $$
 
 Measures:
 
-> Operating cash generated per dollar of equity.
+> operating cash generated per dollar of equity.
 
 ### Cash to Income
 
@@ -967,13 +1048,13 @@ $$
 \begin{aligned}
 \text{Cash to Income}
 &=
-\frac{CFO}{\text{Operating Income}}
+\frac{\text{CFO}}{\text{Operating Income}}
 \end{aligned}
 $$
 
 Measures:
 
-> Ability of operating income to convert into cash.
+> ability of operating income to convert into cash.
 
 ### Cash Flow per Share
 
@@ -982,7 +1063,9 @@ $$
 \text{Cash Flow per Share}
 &=
 \frac{
-CFO - \text{Preferred Dividends}
+\text{CFO}
+-
+\text{Preferred Dividends}
 }{
 \text{Common Shares Outstanding}
 }
@@ -991,7 +1074,7 @@ $$
 
 Measures:
 
-> Operating cash flow per common share.
+> operating cash flow per common share.
 
 ---
 
@@ -1005,7 +1088,7 @@ $$
 \begin{aligned}
 \text{Debt Coverage}
 &=
-\frac{CFO}{\text{Total Debt}}
+\frac{\text{CFO}}{\text{Total Debt}}
 \end{aligned}
 $$
 
@@ -1016,7 +1099,11 @@ $$
 \text{Interest Coverage}
 &=
 \frac{
-CFO + \text{Interest Paid} + \text{Taxes Paid}
+\text{CFO}
++
+\text{Interest Paid}
++
+\text{Taxes Paid}
 }{
 \text{Interest Paid}
 }
@@ -1029,7 +1116,7 @@ $$
 \begin{aligned}
 \text{Reinvestment}
 &=
-\frac{CFO}{\text{Cash Paid for Long-Term Assets}}
+\frac{\text{CFO}}{\text{Cash Paid for Long-Term Assets}}
 \end{aligned}
 $$
 
@@ -1039,7 +1126,7 @@ $$
 \begin{aligned}
 \text{Debt Payment}
 &=
-\frac{CFO}{\text{Cash Paid for Long-Term Debt Repayment}}
+\frac{\text{CFO}}{\text{Cash Paid for Long-Term Debt Repayment}}
 \end{aligned}
 $$
 
@@ -1049,7 +1136,7 @@ $$
 \begin{aligned}
 \text{Dividend Payment}
 &=
-\frac{CFO}{\text{Dividends Paid}}
+\frac{\text{CFO}}{\text{Dividends Paid}}
 \end{aligned}
 $$
 
@@ -1059,7 +1146,7 @@ $$
 \begin{aligned}
 \text{Investing and Financing}
 &=
-\frac{CFO}{\text{Cash Outflows for Investing and Financing Activities}}
+\frac{\text{CFO}}{\text{Cash Outflows for Investing and Financing Activities}}
 \end{aligned}
 $$
 
@@ -1127,7 +1214,7 @@ Key memory:
 
 ---
 
-## 33. One-Page Formula Sheet | 公式汇总
+## 33. One-Page Formula Sheet
 
 ### Ending Cash
 
@@ -1143,11 +1230,11 @@ $$
 \end{aligned}
 $$
 
-### Cash Collected from Customers
+### Cash Received from Customers
 
 $$
 \begin{aligned}
-\text{Cash Collected from Customers}
+\text{Cash Received from Customers}
 &=
 \text{Revenue}
 -
@@ -1159,7 +1246,7 @@ $$
 
 $$
 \begin{aligned}
-\text{Purchases from Suppliers}
+\text{Purchases}
 &=
 \text{COGS}
 +
@@ -1235,9 +1322,9 @@ $$
 
 $$
 \begin{aligned}
-CFO
+\text{CFO}
 &=
-NI
+\text{NI}
 +
 \text{Non-cash Charges}
 -
@@ -1267,17 +1354,22 @@ $$
 
 $$
 \begin{aligned}
-FCFF
+\text{FCFF}
 &=
-NI
+\text{NI}
 +
-NCC
+\text{NCC}
 +
-Int(1 - \text{Tax Rate})
+\text{Int}
+\left(
+1
 -
-FCInv
+\text{Tax Rate}
+\right)
 -
-WCInv
+\text{FCInv}
+-
+\text{WCInv}
 \end{aligned}
 $$
 
@@ -1285,13 +1377,18 @@ $$
 
 $$
 \begin{aligned}
-FCFF
+\text{FCFF}
 &=
-CFO
+\text{CFO}
 +
-Int(1 - \text{Tax Rate})
+\text{Int}
+\left(
+1
 -
-FCInv
+\text{Tax Rate}
+\right)
+-
+\text{FCInv}
 \end{aligned}
 $$
 
@@ -1299,11 +1396,11 @@ $$
 
 $$
 \begin{aligned}
-FCFE
+\text{FCFE}
 &=
-CFO
+\text{CFO}
 -
-FCInv
+\text{FCInv}
 +
 \text{Net Borrowing}
 \end{aligned}
@@ -1315,7 +1412,7 @@ $$
 \begin{aligned}
 \text{Cash Flow to Revenue}
 &=
-\frac{CFO}{\text{Net Revenue}}
+\frac{\text{CFO}}{\text{Net Revenue}}
 \end{aligned}
 $$
 
@@ -1325,7 +1422,7 @@ $$
 \begin{aligned}
 \text{Debt Coverage}
 &=
-\frac{CFO}{\text{Total Debt}}
+\frac{\text{CFO}}{\text{Total Debt}}
 \end{aligned}
 $$
 
@@ -1336,7 +1433,11 @@ $$
 \text{Interest Coverage}
 &=
 \frac{
-CFO + \text{Interest Paid} + \text{Taxes Paid}
+\text{CFO}
++
+\text{Interest Paid}
++
+\text{Taxes Paid}
 }{
 \text{Interest Paid}
 }
