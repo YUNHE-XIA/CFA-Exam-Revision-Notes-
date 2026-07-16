@@ -270,8 +270,8 @@ $$
 
 例如：
 
-- \(P(Default \mid Recession)\)：given recession, probability of default；
-- \(P(High EPS \mid Declining Interest Rates)\)：given declining rates, probability of high EPS。
+- \(P(Default | mid Recession)\)：given recession, probability of default；
+- \(P(High EPS | mid Declining Interest Rates)\)：given declining rates, probability of high EPS。
 
 记忆：
 
