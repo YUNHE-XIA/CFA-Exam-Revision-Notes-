@@ -49,24 +49,6 @@ $$
 
 > Expected value is the forecasted average outcome.
 
-例如：
-
-如果一只股票有两个可能收益：
-
-- 60% probability of 10% return；
-- 40% probability of -5% return；
-
-则：
-
-$$
-\begin{aligned}
-E(R)
-&=
-0.60(10\%) + 0.40(-5\%) \\
-&=
-4\%
-\end{aligned}
-$$
 
 记忆：
 
